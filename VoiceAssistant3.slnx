@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="VoiceAssistant3.csproj" Id="930f13db-a427-4031-8a1a-a74a769e5a1b">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>

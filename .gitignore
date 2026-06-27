@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# .NET
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.log
+*.tmp
+*.temp
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+
+# Whisper (большие файлы)
+whisper/ggml-*.bin
+whisper/*.exe
+whisper/*.dll
+
+# Установщик
+installer/
+*.setup.exe
+
+# Временные файлы
+temp.wav
+*.wav
+
+# Редакторы
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Готовые билды
+VoiceAssistant3.exe
+VoiceAssistant3.pdb
