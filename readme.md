@@ -9,6 +9,7 @@
 [![.NET](https://img.shields.io/badge/.NET-8.0-green.svg)](https://dotnet.microsoft.com/)
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6.svg)](https://microsoft.com/windows)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Donate](https://img.shields.io/badge/💰_Поддержать_проект-ff69b4)](https://www.donationalerts.com/r/olegplay9909)
 
 ---
 
@@ -126,7 +127,6 @@ Windows 10/11 (x64)
 
 Spotify / VLC / любой плеер для управления музыкой
 
-⭐ ПОДДЕРЖИ ПРОЕКТ:
-[![Donate](https://img.shields.io/badge/💰_Поддержать_проект-ff69b4)](https://www.donationalerts.com/r/olegplay99)
+
 
 📢 Расскажи друзьям
