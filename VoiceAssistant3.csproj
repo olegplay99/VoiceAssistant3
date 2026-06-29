@@ -215,6 +215,9 @@
     <Reference Include="Vosk, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Vosk.0.3.38\lib\netstandard2.0\Vosk.dll</HintPath>
     </Reference>
+    <Reference Include="WebRtcVadSharp, Version=1.3.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\WebRtcVadSharp.1.3.2\lib\netstandard2.0\WebRtcVadSharp.dll</HintPath>
+    </Reference>
     <Reference Include="Whisper.net, Version=1.9.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Whisper.net.1.9.1\lib\netstandard2.0\Whisper.net.dll</HintPath>
     </Reference>
@@ -273,6 +276,7 @@
     <Error Condition="!Exists('packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets'))" />
     <Error Condition="!Exists('packages\LM-Kit.NET.2026.6.4\build\netstandard2.0\LM-Kit.NET.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\LM-Kit.NET.2026.6.4\build\netstandard2.0\LM-Kit.NET.props'))" />
     <Error Condition="!Exists('packages\LM-Kit.NET.2026.6.4\build\netstandard2.0\LM-Kit.NET.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\LM-Kit.NET.2026.6.4\build\netstandard2.0\LM-Kit.NET.targets'))" />
+    <Error Condition="!Exists('packages\WebRtcVadSharp.1.3.2\build\WebRtcVadSharp.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\WebRtcVadSharp.1.3.2\build\WebRtcVadSharp.targets'))" />
   </Target>
   <Import Project="packages\Microsoft.ML.OnnxRuntime.Managed.1.27.0\build\netstandard2.0\Microsoft.ML.OnnxRuntime.Managed.targets" Condition="Exists('packages\Microsoft.ML.OnnxRuntime.Managed.1.27.0\build\netstandard2.0\Microsoft.ML.OnnxRuntime.Managed.targets')" />
   <Import Project="packages\Microsoft.ML.OnnxRuntime.1.27.0\build\netstandard2.0\Microsoft.ML.OnnxRuntime.targets" Condition="Exists('packages\Microsoft.ML.OnnxRuntime.1.27.0\build\netstandard2.0\Microsoft.ML.OnnxRuntime.targets')" />
@@ -280,4 +284,5 @@
   <Import Project="packages\Whisper.net.Runtime.1.9.1\build\Whisper.net.Runtime.targets" Condition="Exists('packages\Whisper.net.Runtime.1.9.1\build\Whisper.net.Runtime.targets')" />
   <Import Project="packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets" Condition="Exists('packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" />
   <Import Project="packages\LM-Kit.NET.2026.6.4\build\netstandard2.0\LM-Kit.NET.targets" Condition="Exists('packages\LM-Kit.NET.2026.6.4\build\netstandard2.0\LM-Kit.NET.targets')" />
+  <Import Project="packages\WebRtcVadSharp.1.3.2\build\WebRtcVadSharp.targets" Condition="Exists('packages\WebRtcVadSharp.1.3.2\build\WebRtcVadSharp.targets')" />
 </Project>
