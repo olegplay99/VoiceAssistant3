@@ -127,6 +127,6 @@ Windows 10/11 (x64)
 Spotify / VLC / любой плеер для управления музыкой
 
 ⭐ ПОДДЕРЖИ ПРОЕКТ:
-⭐ Поставь звезду на GitHub
+[![Donate](https://img.shields.io/badge/💰_Поддержать_проект-ff69b4)](https://www.donationalerts.com/r/olegplay99)
 
 📢 Расскажи друзьям
